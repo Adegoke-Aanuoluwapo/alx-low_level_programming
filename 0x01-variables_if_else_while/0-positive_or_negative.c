@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
@@ -16,7 +16,5 @@ int main(void)
 		 }
 		else
 	         printf("value of the number is: %d positive\n", n);		
-
-					return (0);
-
+		 return (0);
 }
