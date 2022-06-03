@@ -4,17 +4,19 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-		int n;
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;
- 	          		/* your code goes there */                                    scanf("Please input number &%d\n, n");
-	            if (n < 0) {
-		 printf("value of the number is: %d negative\n", n);
-		    }			 
-	         else if (n ==0) {
-		printf("value of number is: %d zero\n", n);
-		 }
-		else
-	         printf("value of the number is: %d positive\n", n);		
-		 return (0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */                      
+if (n > 0){
+printf("is positiv e%d\n");
+}
+else if (n ==0){
+printf("is zero %d\n");
+}
+else {
+printf("is negative %d\n");
+}
+	
+return (0);
 }
