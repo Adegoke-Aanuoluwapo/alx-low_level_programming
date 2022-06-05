@@ -2,9 +2,9 @@
 
 /*
  * main - Prints the size of diffirent characters and word
- * Return: Always return 0
+ * Return: Always 0
  */
-int main(void)
+int main(void);
 {
 
 		printf("Size of a char: %ld byte(s)\n", sizeof(char));
