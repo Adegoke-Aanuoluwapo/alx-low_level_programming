@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main- this program prints all integers in base 10 stating from 0
+ * main - Prints all integers in base 10 stating from 0
  *
  * Returns: Always 0.
  */
