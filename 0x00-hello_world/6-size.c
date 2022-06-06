@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Prints the size of diffirent characters and word
  * Return: Always 0
  */
