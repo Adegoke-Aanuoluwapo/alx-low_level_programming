@@ -2,18 +2,20 @@
 #include <stdio.h>
 
 /**
- * main -check the code.
+ * _isupper -check the code if the alphabeth is upper.
+ * @c: The character to be checked
  *
- * Return: Always 0
+ * Return: 1 if the alphabeth is uppercase and 0 if the alphabeth is lower.
  */
-int main(void)
 
+int _isupper(int c)
 {
-	char c;
 
-       	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+	if (c >= 'A'  && c <= 'Z')
+
+		return (1);
+
+	else
+
+		return (0);
 }
