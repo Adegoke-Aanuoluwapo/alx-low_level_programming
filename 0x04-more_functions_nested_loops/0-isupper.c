@@ -1,10 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _isupper -check the code if the alphabeth is upper.
- * @c: The character to be checked
- *
+ * _isupper -functions that checks for uppercase characters
+ * @c: int type number
  * Return: 1 if the alphabeth is uppercase and 0 if the alphabeth is lower.
  */
 
@@ -15,7 +13,7 @@ int _isupper(int c)
 
 		return (1);
 
-	else
 
-		return (0);
+
+	return (0);
 }
