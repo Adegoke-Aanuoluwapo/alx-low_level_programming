@@ -10,6 +10,7 @@
 void print_diagsums(int *a, int size)
 {
 	int i, sum, sizer;
+
 	i = 0;
 	sum = 0;
 	sizer = size * size;
