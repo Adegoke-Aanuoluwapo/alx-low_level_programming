@@ -26,7 +26,6 @@ int get_length(char *s)
 {
 	if (*s == '\0')
 		return (1);
-	else
 	return (1 + get_length(++s));
 }
 
