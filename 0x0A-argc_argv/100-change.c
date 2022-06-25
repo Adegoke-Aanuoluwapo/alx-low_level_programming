@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 		if ((cents - 2) >= 2)
 		{
 			cents -= 2;
-			continue
+			continue;
 		}
 		cents--;
 	}
