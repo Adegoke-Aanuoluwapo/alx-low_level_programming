@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This repo is about C programming Language
+My readme for low-level course
